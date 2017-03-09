@@ -176,6 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class // 安装composer及laravel-ide-helper后起作用 https://github.com/barryvdh/laravel-ide-helper
 
     ],
 
