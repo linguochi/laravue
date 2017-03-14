@@ -18,6 +18,6 @@ import 'element-ui/lib/theme-default/index.css'
 Vue.use(ElementUI);
 
 const app = new Vue({
-    el: '#app',
+    el: '#app2',
     render: h => h(App)
 });

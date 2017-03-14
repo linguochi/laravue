@@ -19,3 +19,4 @@ mix.browserSync({
     host: "119.29.153.150",
     open: false //服务器端开发 不打开浏览器
 });
+//

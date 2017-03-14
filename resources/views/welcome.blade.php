@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Example</title>
-</head>
-<body>
-<div id="app"></div>
+@extends('layouts.app')
 
-<script src="{{ asset('js/app.js') }}"></script>
-</body>
-</html>
+@section('content')
+    <div id="app2"></div>
+@endsection
