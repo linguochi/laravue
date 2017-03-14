@@ -13,5 +13,6 @@
             </div>
         </div>
     </div>
+    <div id="app2"></div>
 </div>
 @endsection
