@@ -16,5 +16,6 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 mix.browserSync({
     proxy: '119.29.153.150:8080',
-    host: "119.29.153.150"
+    host: "119.29.153.150",
+    open: false //服务器端开发 不打开浏览器
 });
