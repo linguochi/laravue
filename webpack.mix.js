@@ -22,3 +22,7 @@ mix.browserSync({
 });
 //
 
+mix.options({
+    uglify: {sourceMap: false}, // Uglify-specific options. https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin
+});
+
