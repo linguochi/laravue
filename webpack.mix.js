@@ -21,3 +21,4 @@ mix.browserSync({
     open: false //服务器端开发 不打开浏览器
 });
 //
+
